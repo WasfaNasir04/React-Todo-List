@@ -1,0 +1,66 @@
+/* src/TodoList.css */
+
+.input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 300px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tasks-container {
+    margin-top: 20px;
+  }
+  
+  .task {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task.todo {
+    border-left: 5px solid #ffc107; /* Yellow border for Todo tasks */
+  }
+  
+  .task.inprogress {
+    border-left: 5px solid #17a2b8; /* Cyan border for InProgress tasks */
+  }
+  
+  .task.complete {
+    border-left: 5px solid #28a745; /* Green border for Complete tasks */
+  }
+  
+  .task span {
+    flex: 1; /* Take up remaining space */
+    margin-right: 10px;
+  }
+  
+  .task button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
